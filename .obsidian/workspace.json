@@ -11,14 +11,10 @@
             "id": "fd809a7046a4f0ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "laerdal invest.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "laerdal invest"
+              "title": "New tab"
             }
           }
         ]
@@ -185,9 +181,12 @@
   },
   "active": "fd809a7046a4f0ca",
   "lastOpenFiles": [
+    "raw/penningpolitisk-rapport-mars-2026.pdf",
+    "raw/penningpolitisk rapport mars 2026.md",
+    "penningpolitisk-rapport-mars-2026.pdf",
+    "raw",
     "Untitled.md",
     "laerdal invest.md",
-    "Untitled",
     "Gemini.md",
     "llm-wiki.md",
     "Clippings/Nettrapport PPR 12024.md",
