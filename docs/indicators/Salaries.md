@@ -26,7 +26,7 @@ Wage growth is currently the primary point of concern for central bankers in Nor
 ### Norway's Tight Grip
 In Norway, the combination of a tight labor market and high expectations has led to a persistent wage-price pressure. Norges Bank is watching this closely, as it risks making inflation "bite" into the economy.
 
-> "Høy prisvekst over tid kan føre til at bedrifter og husholdninger begynner å planlegge for at prisveksten holder seg høy. Da kan prisveksten bite seg fast." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+> "Høy prisvekst over tid kan føre til at bedrifter og husholdninger begynner å planlegge for at prisveksten holder seg høy. Da kan prisveksten bite seg fast." — [Nettrapport PPR 1/2026](../raw/nettrapport_ppr_12026.html)
 
 ### Sweden's Controlled Growth
 Sweden's labor market has seen a more tempered wage development, which has helped the Riksbank keep underlying inflation low.
@@ -36,5 +36,5 @@ Sweden's labor market has seen a more tempered wage development, which has helpe
 ## Sources
 - [Norway](../entities/Norway.md)
 - [Sweden](../entities/Sweden.md)
-- [Norges Bank PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+- [Norges Bank PPR 1/2026](../raw/nettrapport_ppr_12026.html)
 - [Riksbanken Mars 2026](../raw/penningpolitisk-rapport-mars-2026.html)

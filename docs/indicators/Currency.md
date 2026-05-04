@@ -30,7 +30,7 @@ Both the NOK and SEK have been buffeted by global volatility, but their central 
 ### Norway's Interest Rate Shield
 Norges Bank has explicitly used the interest rate differential as a tool to support the Krone, especially as oil and gas prices spiked in early 2026.
 
-> "En sterkere krone vil dempe prisveksten på varer vi kjøper fra utlandet... Forventninger til høyere styringsrente gir normalt en umiddelbar styrking av kronen." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+> "En sterkere krone vil dempe prisveksten på varer vi kjøper fra utlandet... Forventninger til høyere styringsrente gir normalt en umiddelbar styrking av kronen." — [Nettrapport PPR 1/2026](../raw/nettrapport_ppr_12026.html)
 
 ### Sweden's Geopolitical Vulnerability
 In Sweden, the recent weakness of the Krona has been tied closely to the "flight to safety" following the Middle East conflict, which strengthened the US Dollar against smaller currencies.
@@ -40,5 +40,5 @@ In Sweden, the recent weakness of the Krona has been tied closely to the "flight
 ## Sources
 - [Norway](../entities/Norway.md)
 - [Sweden](../entities/Sweden.md)
-- [Norges Bank PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+- [Norges Bank PPR 1/2026](../raw/nettrapport_ppr_12026.html)
 - [Riksbanken Mars 2026](../raw/penningpolitisk-rapport-mars-2026.html)

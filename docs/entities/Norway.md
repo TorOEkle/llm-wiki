@@ -32,12 +32,12 @@ Norway has a small, open, petroleum-rich economy. The monetary policy is managed
 ## Narrative: Domestic Pressure and a Hawkish Stance
 As of March 2026, the Norwegian economy faces a "sticky" inflation problem that sets it apart from its neighbors. While global supply shocks have eased, domestic factors—particularly high wage growth and a tight labor market—continue to drive prices.
 
-> "Jobben med å få bukt med prisveksten er ikke fullført. Komiteen er opptatt av at prisveksten nå har ligget over målet i flere år, og at det er utsikter til at den vil bli høyere fremover enn tidligere anslått." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+> "Jobben med å få bukt med prisveksten er ikke fullført. Komiteen er opptatt av at prisveksten nå har ligget over målet i flere år, og at det er utsikter til at den vil bli høyere fremover enn tidligere anslått." — [Nettrapport PPR 1/2026](../raw/nettrapport_ppr_12026.html)
 
 Norges Bank has maintained a restrictive policy, even as other central banks (like the Riksbank) have begun cutting. In fact, the central bank has signaled that further hikes might be necessary:
 
-> "Vurderingen vi nå har av inflasjonsutsiktene, tilsier at det trolig vil være riktig å sette renten opp på et av de nærmeste rentemøtene." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+> "Vurderingen vi nå har av inflasjonsutsiktene, tilsier at det trolig vil være riktig å sette renten opp på et av de nærmeste rentemøtene." — [Nettrapport PPR 1/2026](../raw/nettrapport_ppr_12026.html)
 
 ## Sources
-- [Nettrapport PPR 1/2024](../raw/Nettrapport_PPR_12024.html)
-- [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+- [Nettrapport PPR 1/2024](../raw/nettrapport_ppr_12024.html)
+- [Nettrapport PPR 1/2026](../raw/nettrapport_ppr_12026.html)

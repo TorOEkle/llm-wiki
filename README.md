@@ -2,6 +2,10 @@
 
 This repository contains tools and data for processing financial and economic reports.
 
+## Link
+
+The wiki can be found here <https://toroekle.github.io/llm-wiki/>
+
 ## MarkItDown
 
 [MarkItDown](https://github.com/microsoft/markitdown) is used to convert various file formats (like PDF) into Markdown.
