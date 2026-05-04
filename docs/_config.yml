@@ -10,7 +10,7 @@ baseurl: "/llm-wiki" # Important for GitHub Pages
 # Site Settings
 locale: "nb-NO"
 author:
-  name: "Tor Olav Ekle"
+  name: "Tor Odin Ekle"
   bio: "Economic Analysis & LLM Research"
   location: "Norway"
 
