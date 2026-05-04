@@ -37,5 +37,5 @@ uv run markitdown raw/filename.pdf -o raw/filename.md
 When tagging changes, use the following format (as specified in `GEMINI.md`):
 
 ```bash
-git tag -a "$(date +%Y-%m-%d-%H-%M-%S)" -m "Your description here"
+git tag -a "$(date +%Y-%m-%dT%H:%M:%S)" -m "Your description here"
 ```
