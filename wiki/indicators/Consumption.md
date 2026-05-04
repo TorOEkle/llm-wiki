@@ -21,6 +21,6 @@ Household consumption (Privat konsum/Hushållens konsumtion) measures the total 
 ## Sources
 - [[entities/Norway|Norway]]
 - [[entities/Sweden|Sweden]]
-- [[reports/Norges_Bank_PPR_1_2026|Norges Bank PPR 1/2026]]
-- [[reports/Riksbanken_PPR_Mars_2024|Riksbanken Mars 2024]]
-- [[reports/Riksbanken_PPR_Mars_2026|Riksbanken Mars 2026]]
+- [Norges Bank PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+- [Riksbanken Mars 2024](../../raw/penningpolitisk-rapport-mars-2024.md)
+- [Riksbanken Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)

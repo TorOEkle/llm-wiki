@@ -30,6 +30,6 @@ The housing market is a central pillar of the Nordic economies. It is highly sen
 - **The Supply Trap**: In both countries, the high cost of materials and labor (Building Costs) has halted new construction. This lack of new supply is expected to lead to very strong price growth in existing homes once interest rates settle.
 
 ## Sources
-- [[reports/Norges_Bank_PPR_1_2024|Norges Bank PPR 1/2024]]
-- [[reports/Norges_Bank_PPR_1_2026|Norges Bank PPR 1/2026]]
-- [[reports/Riksbanken_PPR_Mars_2026|Riksbanken Mars 2026]]
+- [Norges Bank PPR 1/2024](../../raw/Nettrapport%20PPR%2012024.md)
+- [Norges Bank PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+- [Riksbanken Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)

@@ -20,5 +20,7 @@ The policy rate (Styringsrente in Norway, Styrränta in Sweden) is the primary t
 - **Normalization**: Both countries expect to settle into a "neutral" rate environment by 2028, though Norway is expected to remain slightly higher.
 
 ## Sources
+- [Norges Bank PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+- [Riksbanken Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
 - [[entities/Norway|Norway]]
 - [[entities/Sweden|Sweden]]

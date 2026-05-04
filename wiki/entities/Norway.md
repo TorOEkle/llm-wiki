@@ -26,5 +26,5 @@ Norway has a small, open, petroleum-rich economy. The monetary policy is managed
 - **Mainland Resilience**: Despite high rates, the mainland economy grew 1.8% in 2025, showing resilience.
 
 ## Sources
-- [[reports/Norges_Bank_PPR_1_2024|Pengepolitisk rapport 1/2024]]
-- [[reports/Norges_Bank_PPR_1_2026|Pengepolitisk rapport 1/2026]]
+- [Nettrapport PPR 1/2024](../../raw/Nettrapport%20PPR%2012024.md)
+- [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)

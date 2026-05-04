@@ -26,5 +26,5 @@ Sweden has a highly developed, export-oriented economy. Monetary policy is manag
 - **Growth Recovery**: GDP growth is expected to pick up pace in 2026-2027 (2.2%-2.3%) as interest rates remain low.
 
 ## Sources
-- [[reports/Riksbanken_PPR_Dec_2024|Penningpolitisk rapport December 2024]]
-- [[reports/Riksbanken_PPR_Mars_2026|Penningpolitisk rapport Mars 2026]]
+- [Penningpolitisk rapport December 2024](../../raw/penningpolitisk-rapport-december-2024.md)
+- [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
