@@ -11,14 +11,14 @@ Sweden has a highly developed, export-oriented economy. Monetary policy is manag
 
 ## Historical Data & Forecasts
 
-| Year | Policy Rate (Avg) | Unemployment | Wage Growth | Inflation (KPIF) | BNP Growth | Source |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2023 (Actual)** | 3.5% | 7.7% | 3.8% | 6.0% | -0.2% | [PPR Dec 2024] |
-| **2024 (Actual/Prelim)** | 3.6% | 8.4% | 4.0% | 1.9% | 0.6% | [PPR Dec 2024] |
-| **2025 (Actual/Prelim)** | 2.1% | 8.8% | 3.7% | 2.6% | 1.8% | [PPR Mars 2026] |
-| **2026 (Forecast)** | 1.8% | 8.4% | 3.4% | 1.5% | 2.2% | [PPR Mars 2026] |
-| **2027 (Forecast)** | 1.9% | 8.0% | 3.2% | 1.3% | 2.3% | [PPR Mars 2026] |
-| **2028 (Forecast)** | 2.1% | 7.6% | 3.1% | 2.7% | 1.6% | [PPR Mars 2026] |
+| Year                     | Policy Rate (Avg) | Unemployment | Wage Growth | Inflation (KPIF) | BNP Growth | Source          |
+| :----------------------- | :---------------- | :----------- | :---------- | :--------------- | :--------- | :-------------- |
+| **2023 (Actual)**        | 3.5%              | 7.7%         | 3.8%        | 6.0%             | -0.2%      | [PPR Dec 2024]  |
+| **2024 (Actual/Prelim)** | 3.6%              | 8.4%         | 4.0%        | 1.9%             | 0.6%       | [PPR Dec 2024]  |
+| **2025 (Actual/Prelim)** | 2.1%              | 8.8%         | 3.7%        | 2.6%             | 1.8%       | [PPR Mars 2026] |
+| **2026 (Forecast)**      | 1.8%              | 8.4%         | 3.4%        | 1.5%             | 2.2%       | [PPR Mars 2026] |
+| **2027 (Forecast)**      | 1.9%              | 8.0%         | 3.2%        | 1.3%             | 2.3%       | [PPR Mars 2026] |
+| **2028 (Forecast)**      | 2.1%              | 7.6%         | 3.1%        | 2.7%             | 1.6%       | [PPR Mars 2026] |
 
 ## Key Trends
 - **Rapid Rate Cuts**: The Riksbank lowered rates aggressively in 2025, reaching 1.75% by March 2026.

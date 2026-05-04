@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3c0995f0d9bdddba",
+        "id": "80c9f38889c39f1f",
         "type": "tabs",
         "children": [
           {
-            "id": "fd809a7046a4f0ca",
+            "id": "bd43d1a666988fab",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -179,29 +179,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "fd809a7046a4f0ca",
+  "active": "bd43d1a666988fab",
   "lastOpenFiles": [
+    "wiki/indicators/Housing_Market.md",
+    "wiki/indicators/Consumption.md",
     "README.md",
-    "raw/penningpolitisk rapport mars 2026.md",
-    "raw/penningpolitisk-rapport-mars-2026.pdf",
-    "penningpolitisk-rapport-mars-2026.pdf",
-    "raw",
-    "Untitled.md",
-    "laerdal invest.md",
-    "Gemini.md",
+    "wiki/entities/Norway.md",
+    "wiki/entities/Sweden.md",
+    "wiki/indicators/Salaries.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki/comparisons/Norway_vs_Sweden_2024-2026.md",
     "llm-wiki.md",
-    "Clippings/Nettrapport PPR 12024.md",
-    "Clippings/Nettrapport PPR 22024.md",
-    "Clippings/Nettrapport PPR 32024.md",
-    "Clippings/Nettrapport PPR 42024.md",
-    "Clippings/Nettrapport PPR 32025.md",
-    "Clippings/Nettrapport PPR 22025.md",
-    "Clippings/Nettrapport PPR 12026.md",
-    "Clippings/Nettrapport PPR 12025.md",
-    "Clippings/Nettrapport PPR 42025.md",
-    "Clippings",
-    "Untitled.base",
-    "2026-04-07.md",
+    "wiki/comparisons",
+    "wiki/indicators/Currency.md",
+    "source/penningpolitisk-rapport-juni-2025.pdf",
+    "source/penningpolitisk-rapport-december-2025.pdf",
+    "source/penningpolitisk-rapport-mars-2024.pdf",
+    "source/penningpolitisk-rapport-juni-2024.pdf",
+    "wiki/indicators/Interest_Rates.md",
+    "wiki/indicators/Unemployment.md",
+    "wiki/indicators",
+    "wiki/entities",
+    "wiki/WIKI_SCHEMA.md",
+    "wiki",
+    "raw/penningpolitisk-rapport-september-2025.md",
+    "raw/penningpolitisk-rapport-september-2024.md",
+    "raw/penningpolitisk-rapport-mars-2026.md",
+    "raw/penningpolitisk-rapport-mars-2025.md",
+    "raw/penningpolitisk-rapport-mars-2024.md",
+    "raw/penningpolitisk-rapport-juni-2025.md",
+    "raw/penningpolitisk-rapport-juni-2024.md",
+    "raw/penningpolitisk-rapport-december-2025.md",
+    "raw/penningpolitisk-rapport-december-2024.md",
+    "raw/Nettrapport PPR 42024.md",
+    "raw/Nettrapport PPR 32025.md",
+    "raw/Nettrapport PPR 32024.md",
+    "source/penningpolitisk-rapport-september-2024.pdf",
+    "source/penningpolitisk-rapport-mars-2026.pdf",
     "Untitled.canvas"
   ]
 }
