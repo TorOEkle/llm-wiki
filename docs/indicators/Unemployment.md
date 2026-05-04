@@ -29,15 +29,15 @@ The labor market gap between Norway and Sweden remains one of the most significa
 ### Norway's Tight Capacity
 In Norway, the labor market is exceptionally tight, with unemployment hovering near historical lows. This high capacity utilization is a major driver of the hawkish interest rate policy.
 
-> "Kapasitetsutnyttingen i økonomien avtok gjennom 2023 og den har siden ligget nær et normalt nivå... Sysselsettingen i Norge er høy." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.md)
+> "Kapasitetsutnyttingen i økonomien avtok gjennom 2023 og den har siden ligget nær et normalt nivå... Sysselsettingen i Norge er høy." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
 
 ### Sweden's Gradual Improvement
 Sweden has faced a much more challenging unemployment situation, peaking in 2025. However, as of early 2026, the trend is starting to turn.
 
-> "Läget på arbetsmarknaden blir gradvis bättre. Den svaga arbetsmarknaden började förbättras mot slutet av 2025." — [Penningpolitisk rapport Mars 2026](../raw/penningpolitisk-rapport-mars-2026.md)
+> "Läget på arbetsmarknaden blir gradvis bättre. Den svaga arbetsmarknaden började förbättras mot slutet av 2025." — [Penningpolitisk rapport Mars 2026](../raw/penningpolitisk-rapport-mars-2026.html)
 
 ## Sources
 - [Norway](../entities/Norway.md)
 - [Sweden](../entities/Sweden.md)
-- [Norges Bank PPR 1/2026](../raw/Nettrapport_PPR_12026.md)
-- [Riksbanken Mars 2026](../raw/penningpolitisk-rapport-mars-2026.md)
+- [Norges Bank PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+- [Riksbanken Mars 2026](../raw/penningpolitisk-rapport-mars-2026.html)

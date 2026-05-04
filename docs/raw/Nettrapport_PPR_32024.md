@@ -1,4 +1,5 @@
 ---
+layout: default
 title: PPR 3/2024
 source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2024/ppr-32024/nettrapport-ppr-32024/
 author:

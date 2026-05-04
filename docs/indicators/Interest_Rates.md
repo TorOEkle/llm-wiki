@@ -29,15 +29,15 @@ The most striking feature of the 2024-2026 period is the sharp divergence in mon
 ### Norway's Hawkish Resilience
 Norges Bank has maintained a "higher for longer" stance. In March 2026, it even signaled a potential hike while others were cutting.
 
-> "Komiteen mener det er behov for en mer innstrammende pengepolitikk for å få prisveksten tilbake til målet innen rimelig tid. Inflasjonsutsiktene tilsier at det trolig vil være nødvendig å sette renten opp." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.md)
+> "Komiteen mener det er behov for en mer innstrammende pengepolitikk for å få prisveksten tilbake til målet innen rimelig tid. Inflasjonsutsiktene tilsier at det trolig vil være nødvendig å sette renten opp." — [Nettrapport PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
 
 ### Sweden's Stabilizing Hold
 The Riksbank, having cut rates aggressively in 2025, moved to a holding pattern in early 2026, citing new geopolitical risks but maintaining that its current policy is well-balanced.
 
-> "Riksbanken bedömer i dagsläget att den nuvarande nivån på styrräntan och en oförändrad prognos jämfört med december är en väl avvägd penningpolitik." — [Penningpolitisk rapport Mars 2026](../raw/penningpolitisk-rapport-mars-2026.md)
+> "Riksbanken bedömer i dagsläget att den nuvarande nivån på styrräntan och en oförändrad prognos jämfört med december är en väl avvägd penningpolitik." — [Penningpolitisk rapport Mars 2026](../raw/penningpolitisk-rapport-mars-2026.html)
 
 ## Sources
-- [Norges Bank PPR 1/2026](../raw/Nettrapport_PPR_12026.md)
-- [Riksbanken Mars 2026](../raw/penningpolitisk-rapport-mars-2026.md)
+- [Norges Bank PPR 1/2026](../raw/Nettrapport_PPR_12026.html)
+- [Riksbanken Mars 2026](../raw/penningpolitisk-rapport-mars-2026.html)
 - [Norway](../entities/Norway.md)
 - [Sweden](../entities/Sweden.md)

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: PPR 3/25
 source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2025/pengepolitisk-rapport-32025/nettrapport-ppr-325/
 author:

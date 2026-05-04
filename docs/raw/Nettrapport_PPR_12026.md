@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Nettrapport PPR 1/2026
 source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2026/ppr-12026/nettrapport-ppr-12026/
 author:
