@@ -11,4 +11,4 @@ Denne wikien gir en løpende analyse av den økonomiske utviklingen i Norge og S
 *   **Økonomiske indikatorer:** Detaljert data og narrativ analyse for [renter](indicators/Interest_Rates.html), [boligmarked](indicators/Housing_Market.html), [lønn](indicators/Salaries.html) og [mer](indicators/index.html).
 *   **Sammenligninger:** En direkte [sammenligning](comparisons/Norway_vs_Sweden_2024-2026.html) av de to økonomiene og forklaringer på hvorfor de beveger seg i ulike retninger.
 
-Bruk menyen til venstre for å utforske de ulike temaene.
+Bruk lenkene over for å utforske de ulike temaene.
