@@ -5,13 +5,13 @@ This schema defines how the Economic Development Wiki is structured and maintain
 ## Directory Structure
 
 - `raw/`: Immutable source documents (Markdown converted from PDFs).
-- `wiki/`: LLM-generated markdown files.
+- `docs/`: LLM-generated markdown files (hosted via GitHub Pages).
   - `index.md`: Catalog of all pages.
   - `log.md`: Chronological record of ingests and updates.
   - `entities/`: Pages for countries (Norway.md, Sweden.md).
   - `indicators/`: Pages for specific metrics (Unemployment.md, Salaries.md, Currency.md, Interest_Rates.md).
   - `comparisons/`: Comparison tables and analyses.
-  - `reports/`: Summaries of individual reports.
+  - `raw/`: Copy of source markdown files for web linking.
 
 ## Page Templates
 

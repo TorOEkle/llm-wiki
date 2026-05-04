@@ -12,9 +12,16 @@
 - Created Comparison page: `Norway_vs_Sweden_2024-2026.md` with social media hooks.
 
 ## [2026-05-04] cleanup | Standardized Report References
-- Fixed broken `[[reports/...]]` links and updated them to point to `raw/` files.
+- Fixed broken `[reports/...](reports/....md)` links and updated them to point to `raw/` files.
 - Verified data integrity for Mars 2026 reports.
 
 ## [2026-05-04] enhancement | Added Narrative and Quotes
 - Added qualitative analysis and direct quotes from source reports to all Entity and Indicator pages.
 - Improved context for interest rate divergence, consumption recovery, and housing supply constraints.
+
+## [2026-05-04] migration | Transitioned to GitHub Pages
+- Migrated content from `wiki/` to `docs/` for GitHub Pages hosting.
+- Converted all Obsidian wikilinks to standard Markdown links.
+- Created `docs/_config.yml` with the Cayman theme.
+- Integrated `raw/` markdown files into `docs/raw/` for seamless web linking.
+- Updated `.gitignore` to whitelist the new structure.

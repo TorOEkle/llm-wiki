@@ -35,14 +35,14 @@ The housing markets in Norway and Sweden have shown surprising resilience in the
 ### Norway's Supply Squeeze
 In Norway, Norges Bank explicitly identifies the lack of new housing as a primary driver for the continued rise in prices for existing homes.
 
-> "Lav tilførsel av nye boliger trekker i retning av høyere boligpriser." — [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+> "Lav tilførsel av nye boliger trekker i retning av høyere boligpriser." — [Nettrapport PPR 1/2026](../raw/Nettrapport%20PPR%2012026.md)
 
 ### Sweden's Tentative Turn
 Sweden's housing market, which underwent a significant correction in 2023, is now stabilizing. However, the construction sector remains a weak spot due to the mismatch between building costs and market prices.
 
-> "Näringslivets investeringar exklusive bostäder väntas ta fart i år och även bostadsinvesteringarna stiger, om än från låga nivåer." — [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
+> "Näringslivets investeringar exklusive bostäder väntas ta fart i år och även bostadsinvesteringarna stiger, om än från låga nivåer." — [Penningpolitisk rapport Mars 2026](../raw/penningpolitisk-rapport-mars-2026.md)
 
 ## Sources
-- [Norges Bank PPR 1/2024](../../raw/Nettrapport%20PPR%2012024.md)
-- [Norges Bank PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
-- [Riksbanken Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
+- [Norges Bank PPR 1/2024](../raw/Nettrapport%20PPR%2012024.md)
+- [Norges Bank PPR 1/2026](../raw/Nettrapport%20PPR%2012026.md)
+- [Riksbanken Mars 2026](../raw/penningpolitisk-rapport-mars-2026.md)

@@ -28,7 +28,7 @@
 > "Norway's inflation is still at 3.3%, while Sweden has dropped to 1.5%. 🎯 One neighbor is overshooting the target, the other is undershooting. The result? A 2.4% interest rate difference that is reshaping the Nordic housing markets. 🏠 #Inflation #Riksbanken #NorgesBank"
 
 ## Sources
-- [[entities/Norway|Norway]]
-- [[entities/Sweden|Sweden]]
-- [[indicators/Interest_Rates|Interest Rates]]
-- [[indicators/Unemployment|Unemployment]]
+- [Norway](../entities/Norway.md)
+- [Sweden](../entities/Sweden.md)
+- [Interest Rates](../indicators/Interest_Rates.md)
+- [Unemployment](../indicators/Unemployment.md)
