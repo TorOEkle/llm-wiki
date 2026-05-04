@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Indicator: Interest Rates"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Indicator: Interest Rates
 
 ## Definition

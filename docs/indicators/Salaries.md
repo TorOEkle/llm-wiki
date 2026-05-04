@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Indicator: Salaries (Wage Growth)"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Indicator: Salaries (Wage Growth)
 
 ## Historical Wage Growth (Annual % Change)

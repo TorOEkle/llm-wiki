@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Nordic Economic Wiki"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Velkommen til Nordic Economic Wiki
 
 Denne wikien gir en løpende analyse av den økonomiske utviklingen i Norge og Sverige for perioden 2024–2026. Ved å bruke data fra Pengepolitiske rapporter og LLM-drevet analyse, følger vi hvordan nabolandene navigerer i et landskap preget av geopolitisk usikkerhet, ulik inflasjonsdynamikk og divergerende rentebaner.

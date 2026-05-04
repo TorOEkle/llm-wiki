@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Indicator: Unemployment"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Indicator: Unemployment
 
 ## Definition

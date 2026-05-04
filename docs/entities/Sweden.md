@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Sweden: Economic Development"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Sweden: Economic Development
 
 ## Overview

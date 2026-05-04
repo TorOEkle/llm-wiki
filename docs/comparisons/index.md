@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Sammenligninger"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Sammenligninger
 
 Analyser som sammenligner de to økonomiene direkte.

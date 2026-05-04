@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Land (Entities)"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Land (Entities)
 
 Oversikt over den økonomiske utviklingen i de to nabolandene.

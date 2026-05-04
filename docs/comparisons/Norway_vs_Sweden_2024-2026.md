@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Comparison: Norway vs. Sweden (2024–2026)"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Comparison: Norway vs. Sweden (2024–2026)
 
 ## Summary Table

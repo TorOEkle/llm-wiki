@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Norway: Economic Development"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Norway: Economic Development
 
 ## Overview

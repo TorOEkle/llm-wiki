@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Indicator: Consumption (Household)"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Indicator: Consumption (Household)
 
 ## Definition

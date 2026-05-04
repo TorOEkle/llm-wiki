@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Indicator: Currency (Exchange Rates)"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Indicator: Currency (Exchange Rates)
 
 ## Overview

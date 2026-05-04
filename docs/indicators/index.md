@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Økonomiske Indikatorer"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Økonomiske Indikatorer
 
 Her finner du detaljert informasjon og analyse av sentrale økonomiske indikatorer for Norge og Sverige.

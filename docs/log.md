@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Wiki Log"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Wiki Log
 
 ## [2026-05-04] initialization | Established Wiki Structure

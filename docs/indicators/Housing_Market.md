@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: page
 title: "Indicator: Housing Market (Prices & Building Costs)"
-author_profile: true
+categories: [Economy]
+tags: [Norway, Sweden]
 ---
-
 # Indicator: Housing Market (Prices & Building Costs)
 
 ## Overview
