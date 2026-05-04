@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Indicator: Interest Rates"
-parent: Indicators
-nav_order: 4
+author_profile: true
 ---
 
 # Indicator: Interest Rates

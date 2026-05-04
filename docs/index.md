@@ -1,22 +1,16 @@
 ---
-layout: default
-title: Home
-nav_order: 1
-description: "Nordic Economic Development Wiki"
+layout: single
+title: "Nordic Economic Wiki"
+author_profile: true
 ---
 
-# Wiki Index: Economic Development
+# Velkommen til Nordic Economic Wiki
 
-Welcome to the Nordic Economic Development Wiki.
+Denne wikien gir en løpende analyse av den økonomiske utviklingen i Norge og Sverige for perioden 2024–2026. Ved å bruke data fra Pengepolitiske rapporter og LLM-drevet analyse, følger vi hvordan nabolandene navigerer i et landskap preget av geopolitisk usikkerhet, ulik inflasjonsdynamikk og divergerende rentebaner.
 
-## [Entities](entities/index.md)
-Economic development and indicators for Norway and Sweden.
+### Hva du finner her:
+*   **Landprofiler:** Dypdykk i den makroøkonomiske statusen for [Norge](entities/Norway.md) og [Sverige](entities/Sweden.md).
+*   **Økonomiske indikatorer:** Detaljert data og narrativ analyse for [renter](indicators/Interest_Rates.md), [boligmarked](indicators/Housing_Market.md), [lønn](indicators/Salaries.md) og mer.
+*   **Sammenligninger:** En direkte [sammenligning](comparisons/Norway_vs_Sweden_2024-2026.md) av de to økonomiene og forklaringer på hvorfor de beveger seg i ulike retninger.
 
-## [Indicators](indicators/index.md)
-Detailed economic indicators including unemployment, salaries, currency, and more.
-
-## [Comparisons](comparisons/index.md)
-Cross-country comparisons and analysis.
-
-## Reports
-- *Individual report summaries will be listed here.*
+Bruk menyen til venstre for å utforske de ulike temaene.

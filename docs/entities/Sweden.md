@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Sweden: Economic Development"
-parent: Entities
-nav_order: 2
+author_profile: true
 ---
 
 # Sweden: Economic Development

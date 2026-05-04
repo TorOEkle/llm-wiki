@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Norway: Economic Development"
-parent: Entities
-nav_order: 1
+author_profile: true
 ---
 
 # Norway: Economic Development

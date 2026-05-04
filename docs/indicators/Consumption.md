@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Indicator: Consumption (Household)"
-parent: Indicators
-nav_order: 1
+author_profile: true
 ---
 
 # Indicator: Consumption (Household)

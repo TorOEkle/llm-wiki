@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Norway vs Sweden Comparison
-parent: Comparisons
-nav_order: 1
+layout: single
+title: "Comparison: Norway vs. Sweden (2024–2026)"
+author_profile: true
 ---
+
 # Comparison: Norway vs. Sweden (2024–2026)
 
 ## Summary Table

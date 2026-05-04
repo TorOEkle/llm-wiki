@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Indicator: Housing Market (Prices & Building Costs)"
-parent: Indicators
-nav_order: 3
+author_profile: true
 ---
 
 # Indicator: Housing Market (Prices & Building Costs)

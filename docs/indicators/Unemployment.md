@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Unemployment
-parent: Indicators
-nav_order: 6
+layout: single
+title: "Indicator: Unemployment"
+author_profile: true
 ---
+
 # Indicator: Unemployment
 
 ## Definition

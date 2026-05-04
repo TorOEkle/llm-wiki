@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Indicator: Currency (Exchange Rates)"
-parent: Indicators
-nav_order: 2
+author_profile: true
 ---
 
 # Indicator: Currency (Exchange Rates)

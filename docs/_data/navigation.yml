@@ -1,0 +1,27 @@
+main:
+  - title: "Oversikt"
+    url: /index.html
+  - title: "Land (Entities)"
+    children:
+      - title: "Norge"
+        url: /entities/Norway.html
+      - title: "Sverige"
+        url: /entities/Sweden.html
+  - title: "Indikatorer"
+    children:
+      - title: "Renter"
+        url: /indicators/Interest_Rates.html
+      - title: "Konsum"
+        url: /indicators/Consumption.html
+      - title: "Boligmarked"
+        url: /indicators/Housing_Market.html
+      - title: "Lønn"
+        url: /indicators/Salaries.html
+      - title: "Arbeidsledighet"
+        url: /indicators/Unemployment.html
+      - title: "Valuta"
+        url: /indicators/Currency.html
+  - title: "Sammenligninger"
+    url: /comparisons/Norway_vs_Sweden_2024-2026.html
+  - title: "Logg"
+    url: /log.html
