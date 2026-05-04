@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Indicator: Consumption (Household)"
+parent: Indicators
+nav_order: 1
+---
+
 # Indicator: Consumption (Household)
 
 ## Definition

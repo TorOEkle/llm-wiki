@@ -1,3 +1,9 @@
+---
+layout: default
+title: Norway vs Sweden Comparison
+parent: Comparisons
+nav_order: 1
+---
 # Comparison: Norway vs. Sweden (2024–2026)
 
 ## Summary Table

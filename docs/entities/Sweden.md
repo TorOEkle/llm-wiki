@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Sweden: Economic Development"
+parent: Entities
+nav_order: 2
+---
+
 # Sweden: Economic Development
 
 ## Overview

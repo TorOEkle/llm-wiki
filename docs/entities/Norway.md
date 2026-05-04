@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Norway: Economic Development"
+parent: Entities
+nav_order: 1
+---
+
 # Norway: Economic Development
 
 ## Overview

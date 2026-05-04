@@ -1,19 +1,22 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Nordic Economic Development Wiki"
+---
+
 # Wiki Index: Economic Development
 
-## Entities
-- [Norway](entities/Norway.md): Economic development and indicators for Norway.
-- [Sweden](entities/Sweden.md): Economic development and indicators for Sweden.
+Welcome to the Nordic Economic Development Wiki.
 
-## Indicators
-- [Unemployment](indicators/Unemployment.md): Labor market trends.
-- [Salaries](indicators/Salaries.md): Wage growth and development.
-- [Currency](indicators/Currency.md): Exchange rate developments (NOK, SEK).
-- [Interest Rates](indicators/Interest_Rates.md): Policy rates (Styringsrente, Styrränta).
-- [Consumption](indicators/Consumption.md): Household spending patterns.
-- [Housing Market](indicators/Housing_Market.md): Prices and building costs.
+## [Entities](entities/index.md)
+Economic development and indicators for Norway and Sweden.
 
-## Comparisons
-- [Norway vs Sweden (2024-2026)](comparisons/Norway_vs_Sweden_2024-2026.md): A high-level comparison of the two economies.
+## [Indicators](indicators/index.md)
+Detailed economic indicators including unemployment, salaries, currency, and more.
+
+## [Comparisons](comparisons/index.md)
+Cross-country comparisons and analysis.
 
 ## Reports
 - *Individual report summaries will be listed here.*

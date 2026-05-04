@@ -1,3 +1,9 @@
+---
+layout: default
+title: Unemployment
+parent: Indicators
+nav_order: 6
+---
 # Indicator: Unemployment
 
 ## Definition

@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Indicator: Interest Rates"
+parent: Indicators
+nav_order: 4
+---
+
 # Indicator: Interest Rates
 
 ## Definition

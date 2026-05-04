@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Indicator: Housing Market (Prices & Building Costs)"
+parent: Indicators
+nav_order: 3
+---
+
 # Indicator: Housing Market (Prices & Building Costs)
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Indicator: Currency (Exchange Rates)"
+parent: Indicators
+nav_order: 2
+---
+
 # Indicator: Currency (Exchange Rates)
 
 ## Overview

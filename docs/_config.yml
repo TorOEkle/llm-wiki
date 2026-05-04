@@ -1,9 +1,13 @@
 title: Nordic Economic Wiki
 description: A comparative analysis of the Norwegian and Swedish economies (2024-2026).
-theme: jekyll-theme-cayman
-show_downloads: true
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: just-the-docs/just-the-docs
 
+# Just the Docs Settings
+color_scheme: light
+search_enabled: true
+nav_sort: Numbered
+
+# Configuration for plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-relative-links

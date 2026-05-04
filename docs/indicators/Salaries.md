@@ -1,3 +1,9 @@
+---
+layout: default
+title: Salaries
+parent: Indicators
+nav_order: 5
+---
 # Indicator: Salaries (Wage Growth)
 
 ## Historical Wage Growth (Annual % Change)
