@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Indicator: Consumption (Household)"
-author_profile: true
 ---
-
 # Indicator: Consumption (Household)
 
 ## Definition

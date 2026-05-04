@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Sweden: Economic Development"
-author_profile: true
 ---
-
 # Sweden: Economic Development
 
 ## Overview

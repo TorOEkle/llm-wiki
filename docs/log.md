@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Wiki Log"
-author_profile: true
 ---
-
 # Wiki Log
 
 ## [2026-05-04] initialization | Established Wiki Structure

@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Wiki Schema: Economic Development (Norway & Sweden)"
-author_profile: true
 ---
-
 # Wiki Schema: Economic Development (Norway & Sweden)
 
 This schema defines how the Economic Development Wiki is structured and maintained.

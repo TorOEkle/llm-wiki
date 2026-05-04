@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Indicator: Interest Rates"
-author_profile: true
 ---
-
 # Indicator: Interest Rates
 
 ## Definition

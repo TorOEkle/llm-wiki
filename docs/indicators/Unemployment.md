@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Indicator: Unemployment"
-author_profile: true
 ---
-
 # Indicator: Unemployment
 
 ## Definition

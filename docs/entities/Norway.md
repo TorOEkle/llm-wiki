@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Norway: Economic Development"
-author_profile: true
 ---
-
 # Norway: Economic Development
 
 ## Overview

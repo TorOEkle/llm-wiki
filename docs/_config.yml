@@ -1,48 +1,9 @@
-# Minimal Mistakes Configuration
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air" # Options: air, aqua, contrast, dark, dirt, sunrise, sunset
-
 title: Nordic Economic Wiki
 description: A comparative analysis of the Norwegian and Swedish economies (2024-2026).
-url: "https://TorOEkle.github.io"
-baseurl: "/llm-wiki" # Important for GitHub Pages
+remote_theme: pages-themes/cayman@v0.2.0
 
-# Site Settings
-locale: "nb-NO"
-author:
-  name: "Tor Odin Ekle"
-  bio: "Economic Analysis & LLM Research"
-  location: "Norway"
-
-# Sidebar
-sidebar:
-  nav: "main"
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# Plugins
 plugins:
   - jekyll-remote-theme
-  - jekyll-include-cache
   - jekyll-relative-links
 
 relative_links:

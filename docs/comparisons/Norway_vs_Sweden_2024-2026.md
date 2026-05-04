@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Comparison: Norway vs. Sweden (2024–2026)"
-author_profile: true
 ---
-
 # Comparison: Norway vs. Sweden (2024–2026)
 
 ## Summary Table

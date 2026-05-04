@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Indicator: Housing Market (Prices & Building Costs)"
-author_profile: true
 ---
-
 # Indicator: Housing Market (Prices & Building Costs)
 
 ## Overview

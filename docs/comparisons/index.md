@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Sammenligninger"
-author_profile: true
 ---
-
 # Sammenligninger
 
 Analyser som sammenligner de to økonomiene direkte.

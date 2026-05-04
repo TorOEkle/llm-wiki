@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Indicator: Currency (Exchange Rates)"
-author_profile: true
 ---
-
 # Indicator: Currency (Exchange Rates)
 
 ## Overview

@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Land (Entities)"
-author_profile: true
 ---
-
 # Land (Entities)
 
 Oversikt over den økonomiske utviklingen i de to nabolandene.

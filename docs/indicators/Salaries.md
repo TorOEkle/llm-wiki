@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Indicator: Salaries (Wage Growth)"
-author_profile: true
 ---
-
 # Indicator: Salaries (Wage Growth)
 
 ## Historical Wage Growth (Annual % Change)
