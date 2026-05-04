@@ -16,6 +16,21 @@
 - **Inflation Impact**: High wage growth in Norway has been a major concern for Norges Bank, as it risks making inflation "sticky" (selvforsterkende).
 - **Sweden's Stability**: Sweden's wage growth has been more moderate, reflecting the multi-year collective agreements (Industriavtalet) which have historically acted as an anchor for inflation.
 
+## Narrative: The Wage-Price Dilemma
+Wage growth is currently the primary point of concern for central bankers in Norway, while Sweden maintains a more stable, albeit slower, trajectory.
+
+### Norway's Tight Grip
+In Norway, the combination of a tight labor market and high expectations has led to a persistent wage-price pressure. Norges Bank is watching this closely, as it risks making inflation "bite" into the economy.
+
+> "Høy prisvekst over tid kan føre til at bedrifter og husholdninger begynner å planlegge for at prisveksten holder seg høy. Da kan prisveksten bite seg fast." — [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+
+### Sweden's Controlled Growth
+Sweden's labor market has seen a more tempered wage development, which has helped the Riksbank keep underlying inflation low.
+
+> "Underliggande inflation ... var tydligt lägre än Riksbankens prognos. Tjänstepriserna ... ökade långsammare än väntat." — [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
+
 ## Sources
 - [[entities/Norway|Norway]]
 - [[entities/Sweden|Sweden]]
+- [Norges Bank PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+- [Riksbanken Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)

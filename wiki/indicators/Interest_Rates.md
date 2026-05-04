@@ -19,6 +19,19 @@ The policy rate (Styringsrente in Norway, Styrränta in Sweden) is the primary t
 - **Policy Stance**: Norway has maintained a more restrictive stance to support its currency (NOK) and combat more persistent inflation.
 - **Normalization**: Both countries expect to settle into a "neutral" rate environment by 2028, though Norway is expected to remain slightly higher.
 
+## Narrative: The Great Interest Rate Divide
+The most striking feature of the 2024-2026 period is the sharp divergence in monetary policy between Norway and Sweden. While both countries initially raised rates to combat the post-pandemic inflation surge, their paths split in early 2025.
+
+### Norway's Hawkish Resilience
+Norges Bank has maintained a "higher for longer" stance. In March 2026, it even signaled a potential hike while others were cutting.
+
+> "Komiteen mener det er behov for en mer innstrammende pengepolitikk for å få prisveksten tilbake til målet innen rimelig tid. Inflasjonsutsiktene tilsier at det trolig vil være nødvendig å sette renten opp." — [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+
+### Sweden's Stabilizing Hold
+The Riksbank, having cut rates aggressively in 2025, moved to a holding pattern in early 2026, citing new geopolitical risks but maintaining that its current policy is well-balanced.
+
+> "Riksbanken bedömer i dagsläget att den nuvarande nivån på styrräntan och en oförändrad prognos jämfört med december är en väl avvägd penningpolitik." — [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
+
 ## Sources
 - [Norges Bank PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
 - [Riksbanken Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)

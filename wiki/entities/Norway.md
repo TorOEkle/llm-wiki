@@ -25,6 +25,15 @@ Norway has a small, open, petroleum-rich economy. The monetary policy is managed
 - **Wage-Price Pressure**: Wage growth remained high in 2024 (5.6%) and 2025 (4.9%), contributing to persistent inflation.
 - **Mainland Resilience**: Despite high rates, the mainland economy grew 1.8% in 2025, showing resilience.
 
+## Narrative: Domestic Pressure and a Hawkish Stance
+As of March 2026, the Norwegian economy faces a "sticky" inflation problem that sets it apart from its neighbors. While global supply shocks have eased, domestic factors—particularly high wage growth and a tight labor market—continue to drive prices.
+
+> "Jobben med å få bukt med prisveksten er ikke fullført. Komiteen er opptatt av at prisveksten nå har ligget over målet i flere år, og at det er utsikter til at den vil bli høyere fremover enn tidligere anslått." — [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+
+Norges Bank has maintained a restrictive policy, even as other central banks (like the Riksbank) have begun cutting. In fact, the central bank has signaled that further hikes might be necessary:
+
+> "Vurderingen vi nå har av inflasjonsutsiktene, tilsier at det trolig vil være riktig å sette renten opp på et av de nærmeste rentemøtene." — [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+
 ## Sources
 - [Nettrapport PPR 1/2024](../../raw/Nettrapport%20PPR%2012024.md)
 - [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)

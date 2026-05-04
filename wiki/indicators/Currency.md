@@ -20,6 +20,21 @@ Both the Norwegian Krone (NOK) and the Swedish Krona (SEK) are small currencies 
 - **Interest Rate Differential**: Norway's higher interest rates (relative to Sweden and the Eurozone) are intended to support the NOK by making it more attractive for investors.
 - **Commodity Link**: The NOK remains sensitive to oil and gas prices, while the SEK is more tied to global manufacturing and export demand.
 
+## Narrative: Small Currencies in a Global Storm
+Both the NOK and SEK have been buffeted by global volatility, but their central banks have used different strategies to manage the pressure.
+
+### Norway's Interest Rate Shield
+Norges Bank has explicitly used the interest rate differential as a tool to support the Krone, especially as oil and gas prices spiked in early 2026.
+
+> "En sterkere krone vil dempe prisveksten på varer vi kjøper fra utlandet... Forventninger til høyere styringsrente gir normalt en umiddelbar styrking av kronen." — [Nettrapport PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+
+### Sweden's Geopolitical Vulnerability
+In Sweden, the recent weakness of the Krona has been tied closely to the "flight to safety" following the Middle East conflict, which strengthened the US Dollar against smaller currencies.
+
+> "Kronan har försvagats den senaste tiden. Efter att ha stärkts trendmässigt under 2025 började kronan försvagas mot dollarn i februari, och den senaste tidens oro har medfört en ytterligare försvagning." — [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
+
 ## Sources
 - [[entities/Norway|Norway]]
 - [[entities/Sweden|Sweden]]
+- [Norges Bank PPR 1/2026](../../raw/Nettrapport%20PPR%2012026.md)
+- [Riksbanken Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)

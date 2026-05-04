@@ -25,6 +25,17 @@ Sweden has a highly developed, export-oriented economy. Monetary policy is manag
 - **Unemployment Peak**: Unemployment peaked around 8.8% in 2025, significantly higher than in Norway.
 - **Growth Recovery**: GDP growth is expected to pick up pace in 2026-2027 (2.2%-2.3%) as interest rates remain low.
 
+## Narrative: Navigating Geopolitical Uncertainty
+Sweden's economic landscape in early 2026 is dominated by the fallout from the conflict in the Middle East, which has introduced significant volatility into energy and financial markets. 
+
+> "Omvärlden har utvecklats på ett mycket dramatiskt sätt den senaste tiden. Kriget i Mellanöstern har medfört stora rörelser i energipriser och på finansiella marknader... Det är ännu oklart vad de mer bestående följderna blir." — [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
+
+A stabilizing factor for the Swedish economy has been domestic demand and public spending. Notably, defense investments have become a key contributor to GDP growth.
+
+> "Tillväxten drevs till stor del av statliga satsningar på försvaret, som bidrog till en kraftig ökning av offentlig konsumtion." — [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)
+
+The Riksbank's decision to hold the rate at 1.75% reflects a strategy of "vaksamhet" (vigilance), balancing the need for recovery with the risks of a broader inflation upswing driven by energy costs.
+
 ## Sources
 - [Penningpolitisk rapport December 2024](../../raw/penningpolitisk-rapport-december-2024.md)
 - [Penningpolitisk rapport Mars 2026](../../raw/penningpolitisk-rapport-mars-2026.md)

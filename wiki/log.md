@@ -10,3 +10,11 @@
 - Created Entity pages: `Norway.md`, `Sweden.md`.
 - Created Indicator pages: `Unemployment.md`, `Interest_Rates.md`, `Salaries.md`, `Currency.md`.
 - Created Comparison page: `Norway_vs_Sweden_2024-2026.md` with social media hooks.
+
+## [2026-05-04] cleanup | Standardized Report References
+- Fixed broken `[[reports/...]]` links and updated them to point to `raw/` files.
+- Verified data integrity for Mars 2026 reports.
+
+## [2026-05-04] enhancement | Added Narrative and Quotes
+- Added qualitative analysis and direct quotes from source reports to all Entity and Indicator pages.
+- Improved context for interest rate divergence, consumption recovery, and housing supply constraints.
