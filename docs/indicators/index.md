@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Økonomiske Indikatorer"
+title: "Economic Indicators"
 ---
-# Økonomiske Indikatorer
+# Economic Indicators
 
-Her finner du detaljert informasjon og analyse av sentrale økonomiske indikatorer for Norge og Sverige.
+Here you will find detailed information and analysis of key economic indicators for Norway and Sweden.
 
-*   [Renter](Interest_Rates.html)
-*   [Konsum](Consumption.html)
-*   [Boligmarked](Housing_Market.html)
-*   [Lønn](Salaries.html)
-*   [Arbeidsledighet](Unemployment.html)
-*   [Valuta](Currency.html)
+*   [Interest Rates](Interest_Rates.html)
+*   [Consumption](Consumption.html)
+*   [Housing Market](Housing_Market.html)
+*   [Wages](Salaries.html)
+*   [Unemployment](Unemployment.html)
+*   [Currency](Currency.html)

@@ -2,13 +2,13 @@
 layout: default
 title: "Nordic Economic Wiki"
 ---
-# Velkommen til Nordic Economic Wiki
+# Welcome to the Nordic Economic Wiki
 
-Denne wikien gir en løpende analyse av den økonomiske utviklingen i Norge og Sverige for perioden 2024–2026. Ved å bruke data fra Pengepolitiske rapporter og LLM-drevet analyse, følger vi hvordan nabolandene navigerer i et landskap preget av geopolitisk usikkerhet, ulik inflasjonsdynamikk og divergerende rentebaner.
+This wiki provides an ongoing analysis of economic developments in Norway and Sweden for the period 2024–2026. Using data from Monetary Policy Reports and LLM-driven analysis, we track how these neighboring countries navigate a landscape marked by geopolitical uncertainty, differing inflation dynamics, and diverging interest rate paths.
 
-### Hva du finner her:
-*   **Landprofiler:** Dypdykk i den makroøkonomiske statusen for [Norge](entities/Norway.html) og [Sverige](entities/Sweden.html).
-*   **Økonomiske indikatorer:** Detaljert data og narrativ analyse for [renter](indicators/Interest_Rates.html), [boligmarked](indicators/Housing_Market.html), [lønn](indicators/Salaries.html) og [mer](indicators/index.html).
-*   **Sammenligninger:** En direkte [sammenligning](comparisons/Norway_vs_Sweden_2024-2026.html) av de to økonomiene og forklaringer på hvorfor de beveger seg i ulike retninger.
+### What you will find here:
+*   **Country Profiles:** Deep dives into the macroeconomic status of [Norway](entities/Norway.html) and [Sweden](entities/Sweden.html).
+*   **Economic Indicators:** Detailed data and narrative analysis for [Interest Rates](indicators/Interest_Rates.html), the [Housing Market](indicators/Housing_Market.html), [Wages](indicators/Salaries.html), and [more](indicators/index.html).
+*   **Comparisons:** A direct [comparison](comparisons/Norway_vs_Sweden_2024-2026.html) of the two economies and explanations for why they are moving in different directions.
 
-Bruk lenkene over for å utforske de ulike temaene.
+Use the links above to explore the various topics.

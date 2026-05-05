@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Sammenligninger"
+title: "Comparisons"
 ---
-# Sammenligninger
+# Comparisons
 
-Analyser som sammenligner de to økonomiene direkte.
+Analyses that directly compare the two economies.
 
-*   [Norge vs Sverige (2024–2026)](Norway_vs_Sweden_2024-2026.html)
+*   [Norway vs. Sweden (2024–2026)](Norway_vs_Sweden_2024-2026.html)

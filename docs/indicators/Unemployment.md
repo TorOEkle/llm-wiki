@@ -7,6 +7,12 @@ title: "Indicator: Unemployment"
 ## Definition
 Labor market tightness measured as a percentage of the labor force.
 
+> [!IMPORTANT]
+> **Measurement Alert**: Unemployment rates are measured differently in Norway and Sweden. 
+> - **Sweden** uses the **AKU** (Labour Force Survey) standard.
+> - **Norway** typically reports **NAV** (Registered) unemployment in its main headlines, which is significantly lower. 
+> - For comparison, while Norway's NAV rate is ~2.1%, its **AKU** rate is currently closer to **4.2%**. This wiki uses the most commonly cited metric for each country.
+
 ## Historical Unemployment Rates
 
 | Year         | Norway (NAV) | Sweden (AKU) |     |

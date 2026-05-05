@@ -15,7 +15,7 @@ Sweden has a highly developed, export-oriented economy. Monetary policy is manag
 
 ## Historical Data & Forecasts
 
-| Year                     | Policy Rate (Avg) | Unemployment | Wage Growth | Inflation (KPIF) | BNP Growth | Source          |
+| Year                     | Policy Rate (Avg) | Unemployment | Wage Growth | Inflation (KPIF) | GDP Growth | Source          |
 | :----------------------- | :---------------- | :----------- | :---------- | :--------------- | :--------- | :-------------- |
 | **2023 (Actual)**        | 3.5%              | 7.7%         | 3.8%        | 6.0%             | -0.2%      | [PPR Dec 2024]  |
 | **2024 (Actual/Prelim)** | 3.6%              | 8.4%         | 4.0%        | 1.9%             | 0.6%       | [PPR Dec 2024]  |

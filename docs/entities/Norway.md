@@ -15,7 +15,7 @@ Norway has a small, open, petroleum-rich economy. The monetary policy is managed
 
 ## Historical Data & Forecasts
 
-| Year | Policy Rate (Avg) | Unemployment (NAV) | Wage Growth (Årslønn) | Inflation (KPI-JAE) | BNP Fastland | Source |
+| Year | Policy Rate (Avg) | Unemployment (NAV) | Wage Growth | Inflation (KPI-JAE) | Mainland GDP | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **2023 (Actual)** | 4.50% | 1.8% | 5.2% | 6.2% | 1.1% | [PPR 1/2024] |
 | **2024 (Actual/Prelim)** | 4.50% | 2.0% | 5.6% | 3.7% | 0.6% | [PPR 1/2026] |

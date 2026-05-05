@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Land (Entities)"
+title: "Countries (Entities)"
 ---
-# Land (Entities)
+# Countries (Entities)
 
-Oversikt over den økonomiske utviklingen i de to nabolandene.
+Overview of the economic development in the two neighboring countries.
 
-*   [Norge](Norway.html)
-*   [Sverige](Sweden.html)
+*   [Norway](Norway.html)
+*   [Sweden](Sweden.html)

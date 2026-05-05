@@ -9,25 +9,25 @@ The housing market is a central pillar of the Nordic economies. It is highly sen
 
 ## House Price Development (Annual % Change)
 
-| Year | Norway (Bruktbolig) | Sweden (Bostadspriser) |
+| Year | Norway (Existing Homes) | Sweden (House Prices) |
 | :--- | :--- | :--- |
-| **2023** | 0.5% | Significant fall (reported as "mild lågkonjunktur") |
+| **2023** | 0.5% | Significant fall (reported as "mild recession") |
 | **2024** | 3.0% | Stabilizing / Turning point |
 | **2025** | 5.9% (Actual/Prelim) | ~0.0% (Stable) |
 | **2026 (F)** | 4.0% | Expected rise due to rate cuts |
 | **2027 (F)** | 6.1% | Continued recovery |
 | **2028 (F)** | 7.1% | Strong growth |
 
-## Building Costs (Byggekostnader)
+## Building Costs
 *Assessment from recent reports:*
 
 ### Norway
-- **High Costs**: Reports from 2024 emphasize that "Høye byggekostnader" (high building costs) and increased interest rates led to low profitability in many projects.
-- **Supply Constraint**: Low housing construction is a key driver for higher house prices in the coming years. Norges Bank notes that "Lav tilførsel av nye boliger" (low supply of new homes) pulls prices up.
+- **High Costs**: Reports from 2024 emphasize that "High building costs" (Høye byggekostnader) and increased interest rates led to low profitability in many projects.
+- **Supply Constraint**: Low housing construction is a key driver for higher house prices in the coming years. Norges Bank notes that "Low supply of new homes" (Lav tilførsel av nye boliger) pulls prices up.
 
 ### Sweden
 - **Construction Slump**: Sweden saw a dramatic drop in new home construction in 2023-2024.
-- **Recovery Constraint**: While interest rates are falling, high building costs relative to house prices continue to dampen the recovery of the construction sector (Byggsektoren).
+- **Recovery Constraint**: While interest rates are falling, high building costs relative to house prices continue to dampen the recovery of the construction sector.
 
 ## Comparison/Analysis
 - **Resilience vs. Correction**: Norway's housing market has been remarkably resilient, with prices rising 5.9% in 2025 despite high rates. Sweden underwent a more painful price correction earlier in the cycle.
