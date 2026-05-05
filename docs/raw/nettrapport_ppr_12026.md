@@ -1,17 +1,16 @@
 ---
-layout: default
-title: Nettrapport PPR 1/2026
-source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2026/ppr-12026/nettrapport-ppr-12026/
+layout: "default"
+title: "Nettrapport PPR 1/2026"
+source: "https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2026/ppr-12026/nettrapport-ppr-12026/"
 author:
   - Norges Bank
 published:
-created: 2026-04-07
-description: Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet enstemmig på møtet 25. mars å holde styringsrenten uendret på 4 prosent. Vurderingen vi…
+created: "2026-04-07"
+description: "Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet enstemmig på møtet 25. mars å holde styringsrenten uendret på 4 prosent. Vurderingen vi nå har av inflasjonsutsiktene, tilsier at det trolig vil være riktig å sette renten opp på et av de nærmeste rentemøtene."
 tags:
   - monetary_policy
   - norway
----
-![Forsidebilde av publikasjonen Pengepolitisk rapport 1/2026](https://www.norges-bank.no/contentassets/d94783271f854bd08b3ec9e28d8c3f4c/cover3.png?v=26032026152057&mode=pad&width=170&height=237)
+---![Forsidebilde av publikasjonen Pengepolitisk rapport 1/2026](https://www.norges-bank.no/contentassets/d94783271f854bd08b3ec9e28d8c3f4c/cover3.png?v=26032026152057&mode=pad&width=170&height=237)
 
 Forsidebilde av publikasjonen Pengepolitisk rapport 1/2026
 

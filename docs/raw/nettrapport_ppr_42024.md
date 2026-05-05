@@ -1,17 +1,16 @@
 ---
-layout: default
-title: PPR 4/2024
-source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2024/ppr-42024/
+layout: "default"
+title: "PPR 4/2024"
+source: "https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2024/ppr-42024/"
 author:
   - Norges Bank
-published: 19.12.2024 10:00:00
-created: 2026-04-10
+published: "19.12.2024 10:00:00"
+created: "2026-04-10"
 description:
 tags:
   - monetary_policy
   - norway
----
-Pengepolitisk rapport
+---Pengepolitisk rapport
 
 ## Nytt standardisert tallsett
 

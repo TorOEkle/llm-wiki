@@ -1,17 +1,16 @@
 ---
-layout: default
-title: PPR 3/25
-source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2025/pengepolitisk-rapport-32025/nettrapport-ppr-325/
+layout: "default"
+title: "PPR 3/25"
+source: "https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2025/pengepolitisk-rapport-32025/nettrapport-ppr-325/"
 author:
   - Norges Bank
 published:
-created: 2026-04-10
-description: Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet enstemmig på møtet 17. september å sette styringsrenten ned fra 4,25 til 4 prosent.…
+created: "2026-04-10"
+description: "Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet enstemmig på møtet 17. september å sette styringsrenten ned fra 4,25 til 4 prosent.…"
 tags:
   - monetary_policy
   - norway
----
-![Forsidebilde av publikasjonen Pengepolitisk rapport 3/2025](https://www.norges-bank.no/contentassets/3de67289a1d8409b91ca33d723b7970c/cover7.png?v=13112025133015&mode=pad&width=170&height=237)
+---![Forsidebilde av publikasjonen Pengepolitisk rapport 3/2025](https://www.norges-bank.no/contentassets/3de67289a1d8409b91ca33d723b7970c/cover7.png?v=13112025133015&mode=pad&width=170&height=237)
 
 Forsidebilde av publikasjonen Pengepolitisk rapport 3/2025
 

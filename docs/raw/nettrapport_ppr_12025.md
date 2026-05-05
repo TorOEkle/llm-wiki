@@ -1,17 +1,16 @@
 ---
-layout: default
-title: PPR 1/2025
-source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2025/ppr-12025/nettrapport-ppr-12025/
+layout: "default"
+title: "PPR 1/2025"
+source: "https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2025/ppr-12025/nettrapport-ppr-12025/"
 author:
   - Norges Bank
 published:
-created: 2026-04-10
-description: Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet på møtet 26. mars å holde styringsrenten uendret på 4,5 prosent. Det er usikkerhet om…
+created: "2026-04-10"
+description: "Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet på møtet 26. mars å holde styringsrenten uendret på 4,5 prosent. Det er usikkerhet om…"
 tags:
   - monetary_policy
   - norway
----
-![Forsidebilde av publikasjonen Pengepolitisk rapport 1/2025](https://www.norges-bank.no/contentassets/43b34866438f42188c87cae82de77b1a/cover.png?v=07042025144240&mode=pad&width=170&height=237)
+---![Forsidebilde av publikasjonen Pengepolitisk rapport 1/2025](https://www.norges-bank.no/contentassets/43b34866438f42188c87cae82de77b1a/cover.png?v=07042025144240&mode=pad&width=170&height=237)
 
 Forsidebilde av publikasjonen Pengepolitisk rapport 1/2025
 

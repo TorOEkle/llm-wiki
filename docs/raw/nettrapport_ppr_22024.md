@@ -1,17 +1,16 @@
 ---
-layout: default
-title: Nettrapport PPR 2/2024
-source: https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2024/ppr-22024/nettrapport-ppr-22024/
+layout: "default"
+title: "Nettrapport PPR 2/2024"
+source: "https://www.norges-bank.no/aktuelt/publikasjoner/Pengepolitisk-rapport/2024/ppr-22024/nettrapport-ppr-22024/"
 author:
   - Norges Bank
 published:
-created: 2026-04-10
-description: Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet på møtet 19. juni å holde styringsrenten uendret på 4,5 prosent. Slik komiteen nå…
+created: "2026-04-10"
+description: "Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet på møtet 19. juni å holde styringsrenten uendret på 4,5 prosent. Slik komiteen nå…"
 tags:
   - monetary_policy
   - norway
----
-## Pengepolitiske vurderinger
+---## Pengepolitiske vurderinger
 
 Norges Banks komité for pengepolitikk og finansiell stabilitet besluttet på møtet 19. juni å holde styringsrenten uendret på 4,5 prosent. Slik komiteen nå vurderer utsiktene og risikobildet, vil styringsrenten trolig holdes på dette nivået en god stund fremover.
 
