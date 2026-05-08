@@ -7,7 +7,7 @@ Run this first before generate_articles.py
 import requests
 import duckdb
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 DB_PATH = Path(__file__).parent.parent / "_data" / "macro.duckdb"
@@ -24,66 +24,71 @@ SCB_BASE = "https://api.scb.se/OV0104/v1/doris/sv/ssd"
 
 SSB_QUERIES = {
     "cpi": {
-        "table": "03013",
+        "table": "14700",
         "label": "KPI (konsumprisindeks)",
-        "unit": "Indeks (2015=100)",
+        "unit": "Indeks (2025=100)",
         "query": {
             "query": [
-                {"code": "Konsumgruppe", "selection": {"filter": "item", "values": ["TOTAL"]}},
+                {"code": "VareTjenesteGrp", "selection": {"filter": "item", "values": ["00"]}},
                 {"code": "ContentsCode", "selection": {"filter": "item", "values": ["KpiIndMnd"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
     },
     "unemployment": {
-        "table": "05111",
-        "label": "Arbeidsledighet (AKU)",
+        "table": "13760",
+        "label": "Arbeidsledighet (AKU) begge kjønn 15-74år",
         "unit": "Prosent av arbeidsstyrken",
         "query": {
             "query": [
                 {"code": "Kjonn", "selection": {"filter": "item", "values": ["0"]}},
-                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["Ledige"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "Alder", "selection": {"filter": "item", "values": ["15-74"]}},
+                {"code": "Justering", "selection": {"filter": "item", "values": ["S"]}},
+                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["ArbledProsArbstyrk"]}},
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
     },
     "employment_rate": {
-        "table": "05111",
-        "label": "Sysselsettingsandel",
+        "table": "13760",
+        "label": "Sysselsetting (AKU) begge kjønn 15-74år",
         "unit": "Prosent av befolkningen",
         "query": {
             "query": [
                 {"code": "Kjonn", "selection": {"filter": "item", "values": ["0"]}},
-                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["Sysselsatte"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "Alder", "selection": {"filter": "item", "values": ["15-74"]}},
+                {"code": "Justering", "selection": {"filter": "item", "values": ["S"]}},
+                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["SysselProsBefolkn"]}},
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
     },
     "gdp": {
-        "table": "09190",
+        "table": "11721",
         "label": "BNP Fastlands-Norge",
-        "unit": "Millioner kroner",
+        "unit": "Millioner kroner (sesongjustert)",
         "query": {
             "query": [
-                {"code": "NACE", "selection": {"filter": "item", "values": ["nr23_6"]}},
-                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["BNPB"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "Makrost", "selection": {"filter": "item", "values": ["bnpb.nr23_9fn"]}},
+                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["FastePriserSesJust"]}},
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
     },
     "housing_prices": {
-        "table": "07241",
-        "label": "Boligprisindeks",
-        "unit": "Indeks (2015=100)",
+        "table": "07221",
+        "label": "Boligprisindeks (brukte boliger)",
+        "unit": "Indeks (2015=100, kvartalsvis, sesongjustert)",
         "query": {
             "query": [
+                {"code": "Region", "selection": {"filter": "item", "values": ["TOTAL"]}},
                 {"code": "Boligtype", "selection": {"filter": "item", "values": ["00"]}},
-                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["BpIndeks"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "ContentsCode", "selection": {"filter": "item", "values": ["SesJustBoligindeks"]}},
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
@@ -102,7 +107,7 @@ SCB_QUERIES = {
         "query": {
             "query": [
                 {"code": "ContentsCode", "selection": {"filter": "item", "values": ["000004VU"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
@@ -115,7 +120,7 @@ SCB_QUERIES = {
             "query": [
                 {"code": "Kon", "selection": {"filter": "item", "values": ["1+2"]}},
                 {"code": "ContentsCode", "selection": {"filter": "item", "values": ["000000RY"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["6"]}}
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
@@ -128,7 +133,7 @@ SCB_QUERIES = {
             "query": [
                 {"code": "Kon", "selection": {"filter": "item", "values": ["1+2"]}},
                 {"code": "ContentsCode", "selection": {"filter": "item", "values": ["000000RX"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["6"]}}
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
@@ -140,7 +145,7 @@ SCB_QUERIES = {
         "query": {
             "query": [
                 {"code": "ContentsCode", "selection": {"filter": "item", "values": ["000002IT"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
@@ -153,7 +158,7 @@ SCB_QUERIES = {
             "query": [
                 {"code": "Region", "selection": {"filter": "item", "values": ["00"]}},
                 {"code": "ContentsCode", "selection": {"filter": "item", "values": ["BO0501A1"]}},
-                {"code": "Tid", "selection": {"filter": "top", "values": ["13"]}}
+                {"code": "Tid", "selection": {"filter": "top", "values": ["48"]}}
             ],
             "response": {"format": "json-stat2"}
         }
@@ -190,7 +195,7 @@ def fetch_pxweb(base_url: str, table: str, query: dict) -> list[dict]:
 
 def upsert_series(con, country: str, indicator: str, label: str, unit: str, rows: list[dict]):
     """Insert or replace rows into the macro_data table."""
-    fetched_at = datetime.utcnow().isoformat()
+    fetched_at = datetime.now(timezone.utc).isoformat()
     con.execute("""
         CREATE TABLE IF NOT EXISTS macro_data (
             country     VARCHAR,
@@ -200,15 +205,63 @@ def upsert_series(con, country: str, indicator: str, label: str, unit: str, rows
             period      VARCHAR,
             value       DOUBLE,
             fetched_at  VARCHAR,
+            mom_change  DOUBLE,
+            yoy_change  DOUBLE,
             PRIMARY KEY (country, indicator, period)
         )
     """)
     for row in rows:
         con.execute("""
-            INSERT OR REPLACE INTO macro_data
+            INSERT OR REPLACE INTO macro_data (country, indicator, label, unit, period, value, fetched_at)
             VALUES (?, ?, ?, ?, ?, ?, ?)
         """, [country, indicator, label, unit, row["period"], row["value"], fetched_at])
     print(f"  ✓ {country.upper()} {indicator}: {len(rows)} periods")
+
+
+def calculate_changes(con):
+    """
+    Compute MoM (previous period) and YoY (same period last year) changes.
+    Indices use percentage change, others use absolute change.
+    """
+    print("\n── Calculating MoM and YoY changes ────────────────")
+    # Update using a JOIN on a subquery with window functions
+    con.execute("""
+        UPDATE macro_data 
+        SET 
+            mom_change = ROUND(sub.mom, 4),
+            yoy_change = ROUND(sub.yoy, 4)
+        FROM (
+            SELECT 
+                country, indicator, period,
+                CASE 
+                    WHEN (unit LIKE '%Indeks%' OR unit LIKE '%Index%') 
+                         AND prev_val IS NOT NULL AND prev_val != 0
+                    THEN (value / prev_val) - 1
+                    ELSE value - prev_val
+                END as mom,
+                CASE 
+                    WHEN (unit LIKE '%Indeks%' OR unit LIKE '%Index%') 
+                         AND year_ago_val IS NOT NULL AND year_ago_val != 0
+                    THEN (value / year_ago_val) - 1
+                    ELSE value - year_ago_val
+                END as yoy
+            FROM (
+                SELECT 
+                    *,
+                    LAG(value, 1) OVER (PARTITION BY country, indicator ORDER BY period) as prev_val,
+                    CASE 
+                        WHEN period LIKE '%M%' THEN LAG(value, 12) OVER (PARTITION BY country, indicator ORDER BY period)
+                        WHEN period LIKE '%K%' THEN LAG(value, 4) OVER (PARTITION BY country, indicator ORDER BY period)
+                        ELSE NULL
+                    END as year_ago_val
+                FROM macro_data
+            )
+        ) sub
+        WHERE macro_data.country = sub.country 
+          AND macro_data.indicator = sub.indicator 
+          AND macro_data.period = sub.period
+    """)
+    print("  ✓ Calculations completed")
 
 
 # ---------------------------------------------------------------------------
@@ -235,6 +288,8 @@ def main():
         except Exception as e:
             print(f"  ✗ sweden/{indicator}: {e}")
 
+    calculate_changes(con)
+
     # Quick summary
     print("\n── Summary ───────────────────────────────────")
     result = con.execute("""
@@ -244,7 +299,21 @@ def main():
         ORDER BY country, indicator
     """).fetchall()
     for row in result:
-        print(f"  {row[0]:<8} {row[1]:<20} {row[2]} periods  latest: {row[3]}")
+        # Get the latest values and unit for this series
+        latest_data = con.execute("""
+            SELECT value, mom_change, yoy_change, unit 
+            FROM macro_data 
+            WHERE country = ? AND indicator = ? AND period = ?
+        """, [row[0], row[1], row[3]]).fetchone()
+        
+        val, mom, yoy, unit = latest_data
+        is_index = "Indeks" in unit or "Index" in unit
+        
+        val_str = f"{val:,.1f}"
+        mom_str = f"{mom*100:+.2f}%" if is_index and mom is not None else f"{mom:+.2f}"
+        yoy_str = f"{yoy*100:+.2f}%" if is_index and yoy is not None else f"{yoy:+.2f}"
+
+        print(f"  {row[0]:<8} {row[1]:<20} {row[2]} periods  latest: {row[3]}  val: {val_str:>10}  MoM: {mom_str:>8}  YoY: {yoy_str:>8}")
 
     con.close()
     print("\nDone.")

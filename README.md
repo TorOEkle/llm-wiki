@@ -43,3 +43,10 @@ When tagging changes, use the following format (as specified in `GEMINI.md`):
 ```bash
 git tag -a "$(date +%Y-%m-%dT%H:%M:%S)" -m "Your description here"
 ```
+
+## Populate database
+Run the following command to populate standalone `Shell uv run scripts/fetch_macro.py`
+
+
+## Resume last session
+`gemini --resume e2c7849c-ee35-4e54-8ce5-4c54c6625cee`
