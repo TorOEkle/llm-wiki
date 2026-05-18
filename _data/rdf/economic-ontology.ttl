@@ -1,0 +1,214 @@
+# =============================================================================
+# Macroeconomic Data Ontology (Improved Version)
+# Format:  Turtle (.ttl)
+# Vocab:   OWL 2, RDFS, SKOS, W3C Data Cube, SDMX, PROV-O, OWL-Time
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Namespace Declarations
+# ---------------------------------------------------------------------------
+
+@prefix :               <https://yourdomain.org/macrodata/ontology#> .
+@prefix macro:          <https://yourdomain.org/macrodata/> .
+
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:           <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix qb:             <http://purl.org/linked-data/cube#> .
+@prefix sdmx-measure:   <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-code:      <http://purl.org/linked-data/sdmx/2009/code#> .
+
+@prefix time:           <http://www.w3.org/2006/time#> .
+@prefix prov:           <http://www.w3.org/ns/prov#> .
+@prefix dcat:           <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+
+
+# =============================================================================
+# Ontology Header
+# =============================================================================
+
+<https://yourdomain.org/macrodata/ontology>
+    a owl:Ontology ;
+    rdfs:label       "Macroeconomic Data Ontology"@en ;
+    rdfs:comment     """An OWL ontology for representing macroeconomic indicators,
+                      statistical observations, revision tracking, and index series.
+                      Built on W3C Data Cube, SDMX, PROV-O and OWL-Time."""@en ;
+    dcterms:created  "2025-01-01"^^xsd:date ;
+    owl:versionInfo  "1.1.0" .
+
+
+# =============================================================================
+# 1. INDICATOR TAXONOMY  (OWL Classes + SKOS Concepts)
+# =============================================================================
+
+:IndicatorScheme a skos:ConceptScheme ;
+    skos:prefLabel "Macroeconomic Indicator Classification"@en .
+
+# --- Root Class ---
+:EconomicIndicator a owl:Class ;
+    rdfs:label "Economic Indicator"@en .
+
+# --- Category Classes ---
+:LaborMarketIndicator rdfs:subClassOf :EconomicIndicator .
+:PriceIndicator       rdfs:subClassOf :EconomicIndicator .
+:OutputIndicator      rdfs:subClassOf :EconomicIndicator .
+:TradeIndicator       rdfs:subClassOf :EconomicIndicator .
+:MonetaryIndicator    rdfs:subClassOf :EconomicIndicator .
+:FiscalIndicator      rdfs:subClassOf :EconomicIndicator .
+
+# --- Concrete Indicators (now modeled as INDIVIDUALS) ---
+
+:UnemploymentRate
+    a :LaborMarketIndicator, skos:Concept ;
+    skos:inScheme         :IndicatorScheme ;
+    skos:prefLabel        "Unemployment Rate"@en ;
+    skos:definition       "The share of the labour force that is without work."@en ;
+    skos:notation         "UNEMP_RATE" ;
+    :defaultUnit          :Percentage ;
+    :defaultAdjustment    :SeasonallyAdjusted .
+
+:ConsumerPriceIndex
+    a :PriceIndicator, skos:Concept ;
+    skos:inScheme         :IndicatorScheme ;
+    skos:prefLabel        "Consumer Price Index"@en ;
+    skos:altLabel         "CPI"@en ;
+    skos:notation         "CPI" ;
+    :defaultUnit          :IndexValue ;
+    :isIndexedSeries      true .
+
+:GrossDomesticProduct
+    a :OutputIndicator, skos:Concept ;
+    skos:inScheme         :IndicatorScheme ;
+    skos:prefLabel        "Gross Domestic Product"@en ;
+    skos:altLabel         "GDP"@en ;
+    skos:notation         "GDP" ;
+    :defaultUnit          :CurrencyValue .
+
+
+# =============================================================================
+# 2. MEASUREMENT COMPONENTS (Decoupled Units, Scales, Currencies)
+# =============================================================================
+
+:UnitOfMeasure a owl:Class ; rdfs:label "Unit of Measure"@en .
+:Percentage    a :UnitOfMeasure ; skos:prefLabel "Percentage"@en .
+:IndexValue    a :UnitOfMeasure ; skos:prefLabel "Index Value"@en .
+:CurrencyValue a :UnitOfMeasure ; skos:prefLabel "Currency Value"@en .
+
+:UnitMultiplier a owl:Class ; rdfs:label "Unit Multiplier"@en .
+:Units          a :UnitMultiplier ; skos:prefLabel "Units"@en ; :factor 1 .
+:Thousands      a :UnitMultiplier ; skos:prefLabel "Thousands"@en ; :factor 1000 .
+:Millions       a :UnitMultiplier ; skos:prefLabel "Millions"@en ; :factor 1000000 .
+:Billions       a :UnitMultiplier ; skos:prefLabel "Billions"@en ; :factor 1000000000 .
+
+:Currency a owl:Class ; rdfs:label "Currency"@en .
+:EUR a :Currency ; skos:prefLabel "Euro"@en ; skos:notation "EUR" .
+:USD a :Currency ; skos:prefLabel "US Dollar"@en ; skos:notation "USD" .
+
+
+# =============================================================================
+# 3. FREQUENCY
+# =============================================================================
+
+:Frequency a owl:Class ; rdfs:label "Frequency"@en .
+:Monthly   a :Frequency ; skos:prefLabel "Monthly"@en ; skos:notation "M" .
+:Quarterly a :Frequency ; skos:prefLabel "Quarterly"@en ; skos:notation "Q" .
+:Annual    a :Frequency ; skos:prefLabel "Annual"@en ; skos:notation "A" .
+
+
+# =============================================================================
+# 4. DATA CUBE DIMENSIONS, MEASURES, AND ATTRIBUTES
+# =============================================================================
+
+# Dimensions
+:hasIndicator a owl:ObjectProperty, qb:DimensionProperty ;
+    rdfs:range :EconomicIndicator ; rdfs:label "indicator"@en .
+
+:hasRefArea a owl:ObjectProperty, qb:DimensionProperty ;
+    rdfs:subPropertyOf sdmx-dimension:refArea ; rdfs:label "reference area"@en .
+
+:hasRefPeriod a owl:ObjectProperty, qb:DimensionProperty ;
+    rdfs:subPropertyOf sdmx-dimension:refPeriod ; rdfs:label "reference period"@en .
+
+:hasFrequency a owl:ObjectProperty, qb:DimensionProperty ;
+    rdfs:subPropertyOf sdmx-dimension:freq ;
+    rdfs:range :Frequency ; rdfs:label "frequency"@en .
+
+# Measure
+:obsValue a owl:DatatypeProperty, qb:MeasureProperty ;
+    rdfs:subPropertyOf sdmx-measure:obsValue ;
+    rdfs:range xsd:decimal ; rdfs:label "observation value"@en .
+
+# Attributes
+:hasUnit a owl:ObjectProperty, qb:AttributeProperty ;
+    rdfs:subPropertyOf sdmx-attribute:unitMeasure ;
+    rdfs:range :UnitOfMeasure ; rdfs:label "unit"@en .
+
+:hasMultiplier a owl:ObjectProperty, qb:AttributeProperty ;
+    rdfs:range :UnitMultiplier ; rdfs:label "multiplier"@en .
+
+:hasCurrency a owl:ObjectProperty, qb:AttributeProperty ;
+    rdfs:range :Currency ; rdfs:label "currency"@en .
+
+:hasAdjustment a owl:ObjectProperty, qb:AttributeProperty ;
+    rdfs:range :AdjustmentMethod ; rdfs:label "adjustment"@en .
+
+
+# =============================================================================
+# 5. DATA CUBE DATASET STRUCTURE DEFINITION (Updated)
+# =============================================================================
+
+:MacroDataDSD a qb:DataStructureDefinition ;
+    qb:component [ qb:dimension :hasIndicator ; qb:order 1 ] ;
+    qb:component [ qb:dimension :hasRefArea ;   qb:order 2 ] ;
+    qb:component [ qb:dimension :hasRefPeriod ; qb:order 3 ] ;
+    qb:component [ qb:dimension :hasFrequency ; qb:order 4 ] ;
+    qb:component [ qb:measure   :obsValue ] ;
+    qb:component [ qb:attribute :hasUnit ;       qb:componentRequired true ] ;
+    qb:component [ qb:attribute :hasMultiplier ; qb:componentRequired false ] ;
+    qb:component [ qb:attribute :hasCurrency ;   qb:componentRequired false ] ;
+    qb:component [ qb:attribute :hasAdjustment ; qb:componentRequired true ] .
+
+
+# =============================================================================
+# 6. EXAMPLE INSTANCE DATA
+# =============================================================================
+
+# --- Dataset Definition ---
+<https://yourdomain.org/macrodata/dataset/Eurostat-UNE-RT-Q>
+    a qb:DataSet ;
+    rdfs:label "Eurostat Unemployment Quarterly"@en ;
+    qb:structure :MacroDataDSD .
+
+# --- Observation ---
+<https://yourdomain.org/macrodata/obs/DE-UNEMP-2024Q1-v2>
+    a qb:Observation, prov:Entity ;
+    qb:dataSet      <https://yourdomain.org/macrodata/dataset/Eurostat-UNE-RT-Q> ;
+    :hasIndicator   :UnemploymentRate ;
+    :hasRefArea     <https://yourdomain.org/macrodata/area/DE> ;
+    :hasRefPeriod   <https://yourdomain.org/macrodata/period/2024-Q1> ;
+    :hasFrequency   :Quarterly ;
+    :obsValue       5.7 ;
+    :hasUnit        :Percentage ;
+    :hasAdjustment  :SeasonallyAdjusted ;
+    :releaseDate    "2024-06-10T08:00:00Z"^^xsd:dateTime ;
+    prov:wasRevisionOf <https://yourdomain.org/macrodata/obs/DE-UNEMP-2024Q1-v1> .
+
+# --- GDP Example with Currency/Multiplier ---
+<https://yourdomain.org/macrodata/obs/DE-GDP-2024Q1>
+    a qb:Observation ;
+    qb:dataSet      <https://yourdomain.org/macrodata/dataset/Destatis-GDP-Q> ;
+    :hasIndicator   :GrossDomesticProduct ;
+    :hasRefArea     <https://yourdomain.org/macrodata/area/DE> ;
+    :hasRefPeriod   <https://yourdomain.org/macrodata/period/2024-Q1> ;
+    :hasFrequency   :Quarterly ;
+    :obsValue       1.1 ;
+    :hasUnit        :CurrencyValue ;
+    :hasCurrency    :EUR ;
+    :hasMultiplier  :Billions ;
+    :hasAdjustment  :SeasonallyAdjusted .
